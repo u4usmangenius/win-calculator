@@ -1,0 +1,33 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A simple calculator application built with Electron.",
+  "main": "main.js",
+  "homepage": "https://github.com/u4usmangenius/calculator",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Usman Chaudhary <usmantahir.gc.33@gmail.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^26.1.0",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "productName": "Calculator App",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": {
+        "target": "nsis", 
+        "arch": ["x64"] 
+      },
+      "icon": "icon.png", 
+      "publisherName": "Calculator" 
+    }
+  }
+}
