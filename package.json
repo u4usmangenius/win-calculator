@@ -18,7 +18,8 @@
   "build": {
     "productName": "Calculator App",
     "directories": {
-      "output": "window-app"
+      "output": "window-app",
+      "category":"window"
     },
     "win": {
       "target": {
