@@ -13,13 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^26.1.0",
-    "electron-builder": "^24.6.3"
+    "electron-builder": "^22.14.13"
   },
   "build": {
     "productName": "Calculator App",
     "directories": {
-      "output": "window-app",
-      "category":"window"
+      "output": "dist"
     },
     "win": {
       "target": {
@@ -29,7 +28,7 @@
         ]
       },
       "icon": "icon.png",
-      "publisherName": "Muhammad Usman Tahir"
+      "publisherName": "Calculator"
     }
   }
 }
