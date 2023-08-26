@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple calculator application built with Electron.",
   "main": "main.js",
-  "homepage": "https://github.com/u4usmangenius/calculator",
+  "homepage": "https://github.com/u4usmangenius/win-calculator",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
@@ -11,23 +11,24 @@
   "keywords": [],
   "author": "Usman Chaudhary <usmantahir.gc.33@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "electron": "^26.1.0",
-    "electron-builder": "^22.14.13"
+    "electron-builder": "^24.6.3"
   },
   "build": {
     "productName": "Calculator App",
     "directories": {
-      "output": "dist"
+      "output": "window-app"
     },
     "win": {
       "target": {
-        "target": "nsis", 
-        "arch": ["x64"] 
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
       },
-      "icon": "icon.png", 
-      "publisherName": "Calculator" 
+      "icon": "icon.png",
+      "publisherName": "Muhammad Usman Tahir"
     }
   }
 }
